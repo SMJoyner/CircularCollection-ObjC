@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Menu Item 1</key>
+	<string>Generic description of item 1</string>
+	<key>Menu Item 2</key>
+	<string>Generic description of item 2</string>
+	<key>Menu Item 3</key>
+	<string>Generic description of item 3</string>
+	<key>Menu Item 4</key>
+	<string>Generic description of item 4</string>
+	<key>Menu Item 5</key>
+	<string>Generic description of item 5</string>
+	<key>Menu Item 6</key>
+	<string>Generic description of item 6</string>
+	<key>Menu Item 7</key>
+	<string>Generic description of item 7</string>
+	<key>Menu Item 8</key>
+	<string>Generic description of item 8</string>
+</dict>
+</plist>

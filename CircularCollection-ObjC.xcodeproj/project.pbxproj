@@ -9,12 +9,16 @@
 /* Begin PBXBuildFile section */
 		041C52CC1CC9399000ADEACD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 041C52CB1CC9399000ADEACD /* main.m */; };
 		041C52CF1CC9399000ADEACD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 041C52CE1CC9399000ADEACD /* AppDelegate.m */; };
-		041C52D21CC9399000ADEACD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 041C52D11CC9399000ADEACD /* ViewController.m */; };
 		041C52D51CC9399000ADEACD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 041C52D31CC9399000ADEACD /* Main.storyboard */; };
 		041C52D71CC9399000ADEACD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 041C52D61CC9399000ADEACD /* Assets.xcassets */; };
 		041C52DA1CC9399000ADEACD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 041C52D81CC9399000ADEACD /* LaunchScreen.storyboard */; };
 		041C52E51CC9399000ADEACD /* CircularCollection_ObjCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 041C52E41CC9399000ADEACD /* CircularCollection_ObjCTests.m */; };
 		041C52F01CC9399000ADEACD /* CircularCollection_ObjCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 041C52EF1CC9399000ADEACD /* CircularCollection_ObjCUITests.m */; };
+		041C52FF1CC93C7D00ADEACD /* CircleCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 041C52FE1CC93C7D00ADEACD /* CircleCollectionViewController.m */; };
+		041C53021CC93D4800ADEACD /* CircleFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 041C53011CC93D4800ADEACD /* CircleFlowLayout.m */; };
+		041C53051CC93DC600ADEACD /* CircleCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 041C53041CC93DC600ADEACD /* CircleCollectionViewCell.m */; };
+		041C53081CC9412500ADEACD /* CircleCellData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 041C53071CC9412500ADEACD /* CircleCellData.plist */; };
+		041C530B1CC9A9DF00ADEACD /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 041C530A1CC9A9DF00ADEACD /* DetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +43,6 @@
 		041C52CB1CC9399000ADEACD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		041C52CD1CC9399000ADEACD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		041C52CE1CC9399000ADEACD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		041C52D01CC9399000ADEACD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		041C52D11CC9399000ADEACD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		041C52D41CC9399000ADEACD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		041C52D61CC9399000ADEACD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		041C52D91CC9399000ADEACD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +53,15 @@
 		041C52EB1CC9399000ADEACD /* CircularCollection-ObjCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CircularCollection-ObjCUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		041C52EF1CC9399000ADEACD /* CircularCollection_ObjCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CircularCollection_ObjCUITests.m; sourceTree = "<group>"; };
 		041C52F11CC9399000ADEACD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		041C52FD1CC93C7D00ADEACD /* CircleCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleCollectionViewController.h; sourceTree = "<group>"; };
+		041C52FE1CC93C7D00ADEACD /* CircleCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleCollectionViewController.m; sourceTree = "<group>"; };
+		041C53001CC93D4800ADEACD /* CircleFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleFlowLayout.h; sourceTree = "<group>"; };
+		041C53011CC93D4800ADEACD /* CircleFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleFlowLayout.m; sourceTree = "<group>"; };
+		041C53031CC93DC600ADEACD /* CircleCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleCollectionViewCell.h; sourceTree = "<group>"; };
+		041C53041CC93DC600ADEACD /* CircleCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleCollectionViewCell.m; sourceTree = "<group>"; };
+		041C53071CC9412500ADEACD /* CircleCellData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CircleCellData.plist; sourceTree = "<group>"; };
+		041C53091CC9A9DF00ADEACD /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		041C530A1CC9A9DF00ADEACD /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +112,17 @@
 		041C52C91CC9399000ADEACD /* CircularCollection-ObjC */ = {
 			isa = PBXGroup;
 			children = (
+				041C53061CC940C500ADEACD /* Data */,
 				041C52CD1CC9399000ADEACD /* AppDelegate.h */,
 				041C52CE1CC9399000ADEACD /* AppDelegate.m */,
-				041C52D01CC9399000ADEACD /* ViewController.h */,
-				041C52D11CC9399000ADEACD /* ViewController.m */,
+				041C53031CC93DC600ADEACD /* CircleCollectionViewCell.h */,
+				041C53041CC93DC600ADEACD /* CircleCollectionViewCell.m */,
+				041C53001CC93D4800ADEACD /* CircleFlowLayout.h */,
+				041C53011CC93D4800ADEACD /* CircleFlowLayout.m */,
+				041C52FD1CC93C7D00ADEACD /* CircleCollectionViewController.h */,
+				041C52FE1CC93C7D00ADEACD /* CircleCollectionViewController.m */,
+				041C53091CC9A9DF00ADEACD /* DetailViewController.h */,
+				041C530A1CC9A9DF00ADEACD /* DetailViewController.m */,
 				041C52D31CC9399000ADEACD /* Main.storyboard */,
 				041C52D61CC9399000ADEACD /* Assets.xcassets */,
 				041C52D81CC9399000ADEACD /* LaunchScreen.storyboard */,
@@ -138,6 +156,14 @@
 				041C52F11CC9399000ADEACD /* Info.plist */,
 			);
 			path = "CircularCollection-ObjCUITests";
+			sourceTree = "<group>";
+		};
+		041C53061CC940C500ADEACD /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				041C53071CC9412500ADEACD /* CircleCellData.plist */,
+			);
+			name = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -245,6 +271,7 @@
 			files = (
 				041C52DA1CC9399000ADEACD /* LaunchScreen.storyboard in Resources */,
 				041C52D71CC9399000ADEACD /* Assets.xcassets in Resources */,
+				041C53081CC9412500ADEACD /* CircleCellData.plist in Resources */,
 				041C52D51CC9399000ADEACD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,9 +297,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				041C52D21CC9399000ADEACD /* ViewController.m in Sources */,
+				041C53021CC93D4800ADEACD /* CircleFlowLayout.m in Sources */,
+				041C52FF1CC93C7D00ADEACD /* CircleCollectionViewController.m in Sources */,
+				041C53051CC93DC600ADEACD /* CircleCollectionViewCell.m in Sources */,
 				041C52CF1CC9399000ADEACD /* AppDelegate.m in Sources */,
 				041C52CC1CC9399000ADEACD /* main.m in Sources */,
+				041C530B1CC9A9DF00ADEACD /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,6 +443,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "CircularCollection-ObjC/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.MindActivationCode.CircularCollection-ObjC";
@@ -424,6 +455,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "CircularCollection-ObjC/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.MindActivationCode.CircularCollection-ObjC";
