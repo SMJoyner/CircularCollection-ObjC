@@ -39,8 +39,7 @@ static NSString * const reuseIdentifier = @"Cell";
     
     // Uncomment the following line to preserve selection between presentations
     // self.clearsSelectionOnViewWillAppear = NO;
-    //CircleFlowLayout *circleLayout = [[CircleFlowLayout alloc]init];
-    //self.collectionViewLayout = circleLayout;
+    
 
     
     // Register cell classes
@@ -135,7 +134,7 @@ static NSString * const reuseIdentifier = @"Cell";
     
     [self.navigationController pushViewController:detailViewController animated:NO];
     
-    //[self performSegueWithIdentifier:@"showDetail" sender:self];
+    
     
 }
 
